@@ -1,0 +1,2 @@
+# Exclude all data files (Chicago, Washington and New York)
+*.csv
