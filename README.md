@@ -16,7 +16,9 @@ Based on user specified filter criteria for city, month or range and specific da
 - Where available, a summary of user categorization based on type, gender and date of birth
 
 ### Files used
-Include the files used
+This is the [link](https://www.divvybikes.com/system-data) to the original raw bikeshare data.
+
+The wrangled datasets for Chicago, Washington and New York may be obtained through Udacity.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Pandas were extensively used in the analysis and [The Panda home page](https://pandas.pydata.org/pandas-docs/stable/) as always, is the central, golden book of knowledge.
