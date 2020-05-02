@@ -93,7 +93,7 @@ def load_data(city, month, day):
         (str) month - name of the month or month range to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or work week or weekend or "all" to apply no day filter
     Returns:
-        df - Pandas DataFrame containing city data filtered by month and day
+        df - Pandas DataFrame containing city data filtered by month (or month range) and day (or days)
     """
     # Load df with the relevant city file (csv)
     df = pd.read_csv(CITY_DATA[city])
@@ -213,7 +213,9 @@ def trip_duration_stats(df):
     print('-'*100)
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users only if the column is available
+    for the city
+    """
 
     print('\nCalculating User Stats...')
     start_time = time.time()
