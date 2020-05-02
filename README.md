@@ -1,5 +1,10 @@
+# PDSND: Project Bikeshare
+
+### Author
+_Ayan Banerjee_
+
 ### Date created
-Include the date you created this project and README file.
+May 01, 2020
 
 ### Project Title
 Replace the Project Title
@@ -12,4 +17,3 @@ Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
