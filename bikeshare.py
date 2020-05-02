@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'C': 'chicago.csv',
               'N': 'new_york_city.csv',
@@ -78,7 +77,7 @@ def get_filters():
                 if day in valid_days:
                     break
                 else:
-                    raise
+                    raise Exception
             except:
                 print(message)
     print('-'*100)
@@ -207,7 +206,6 @@ def trip_duration_stats(df):
     # Display total travel time and mean travel time
     print("The total travel time [Days HH:MM:SS] for {} rides was:\t{}".format(total_trips , total_duration))
     print("The average travel time [HH:MM:SS] for {} rides was:\t{}".format(total_trips , mean_duration))
-
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*100)
